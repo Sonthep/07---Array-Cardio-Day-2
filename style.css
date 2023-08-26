@@ -1,0 +1,49 @@
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            align-content: stretch;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+
+        li {
+            margin-left: 13rem;
+            margin-bottom: 1rem;
+        }
+
+        @media screen and (max-width: 700px) {
+            li {
+                margin-left: 3rem;
+                margin-bottom: 1rem;
+            }
+        }
